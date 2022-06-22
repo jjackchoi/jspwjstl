@@ -27,10 +27,10 @@ request.setAttribute("name4", nameList2);
 ${name } <br />
 </c:forEach>
 <hr />
-<%-- <c:forEach var="name" items="${name3 }">
+<c:forEach var="name" items="${name3 }">
 ${name } <br />
-</c:forEach> --%>
-
+</c:forEach>
+<hr />
 <%-- <c:forEach var="name" items="${name3 }" varStatus="st">
  <br /> ${st.count } : <c:out value="${name }" />
 </c:forEach> --%>
